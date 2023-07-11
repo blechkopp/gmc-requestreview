@@ -7,7 +7,7 @@ Usage
 2. Filter program, status
 3. Choose 500 produicts per page
 4. Scroll alllllll the way down to the basement
-5. Open js console
+5. Open js console of the browser you use (chrome...firefox)
 6. Insert js code
 7. Wait until all work is done
 
