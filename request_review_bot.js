@@ -34,7 +34,7 @@ for (var i = 0; i < urls.length; i++) {
     setTimeout(w.clickElem, 16000);
     
     w.clickElem = () => {
-    const xpath = "//*[@id='PRODUCTS-overlay-container']/div[1]/material-dialog/focus-trap/div[2]/div/div[2]/div[2]/material-checkbox/div[1]/material-ripple";
+    const xpath = "//*[starts-with(@id, 'idgen-PRODUCTS')]/div/div[1]/div/issue-actions-toolbelt/div/issue-action/div/button/span[2]";
     const selectedNodeElements = w.document.evaluate(xpath, w.document, null, XPathResult.ANY_TYPE, null);
     let currentNode = selectedNodeElements.iterateNext();
     if (typeof currentNode !== "undefined") {
@@ -48,7 +48,7 @@ for (var i = 0; i < urls.length; i++) {
     setTimeout(w.clickElem, 18000);
     
     w.clickElem = () => {
-    const xpath = "//*[@id='PRODUCTS-overlay-container']/div[1]/material-dialog/focus-trap/div[2]/div/footer/div/material-yes-no-buttons/material-button[1]/material-ripple";
+    const xpath = "//*[@id='PRODUCTS-overlay-container']/div[2]/div/appeal-dialog/minerva-dialog/material-dialog/focus-trap/div[2]/div/footer/div/button-set/div/button[2]/span[2]";
     const selectedNodeElements = w.document.evaluate(xpath, w.document, null, XPathResult.ANY_TYPE, null);
     let currentNode = selectedNodeElements.iterateNext();
     if (typeof currentNode !== "undefined") {
